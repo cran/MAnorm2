@@ -1,8 +1,8 @@
 ---
-title: MAnorm2 1.2.0
-author: Shiqi Tu
-date: 2021-09-10
-contact: tushiqi@picb.ac.cn
+Title: MAnorm2 1.2.1
+Author: Shiqi Tu
+Date: 2022-08-24
+Contact: tushiqi@picb.ac.cn
 ---
 
 
@@ -84,7 +84,7 @@ The only problem associated with such extensions is how to naturally define
 "peaks" for specific data types.
 
 Most of the peak callers originally devised for ChIP-seq data
-(e.g., [MACS 1.4](https://github.com/macs3-project/MACS/downloads)) also
+(e.g., [MACS 1.4](https://pypi.org/project/MACS/)) also
 work for DNase-seq and ATAC-seq data. For RNA-seq data, each row of the input
 table should stand for a gene, and we recommend setting a cutoff (e.g., 20) of
 *raw read count* to define "peak" genes.
@@ -217,7 +217,7 @@ framework, or have performed a hypervariable analysis,
 please cite additionally
 
 > Chen, H., et al.,
-> *HyperChIP for identifying hypervariable signals across ChIP/ATAC-seq samples*.
-> bioRxiv, 2021: p. 2021.07.27.453915.
+> *HyperChIP: identification of hypervariable signals across ChIP-seq or ATAC-seq samples*.
+> Genome Biol, 2022. **23**(1): p. 62.
 
 
